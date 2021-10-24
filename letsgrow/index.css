@@ -1,0 +1,457 @@
+body {
+  font-family: Helvetica 'Montserrat';
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+
+}
+.fluid {
+  padding: 7% 15%;
+  background-color:rgb(109, 107, 131);
+
+}
+
+#title .fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.colored-section {
+  background-color: #70234a;
+  color:darkred;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.button1{
+  background-color:cornsilk;
+}
+
+.button2{
+  background-color:cornsilk;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 3%;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:white;
+}
+
+.content {
+  color: darkblue;
+  font-weight: bold;
+}
+
+
+.container-fluid {
+  width: 100%;
+  height: 130vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  animation: slidebg 15s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: url("https://www.mmppicture.co.in/wp-content/uploads/2021/04/CB-Background-138-857x1080.jpg");
+}
+/* @keyframes slidebg{
+
+  0%  {
+      background-image: url("https://cdn57.androidauthority.net/wp-content/uploads/2015/11/00-best-backgrounds-and-wallpaper-apps-for-android.jpg");   
+  }
+
+  25% {
+      background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/02/Photoshop-Replace-Background-Featured.jpg?q=50&fit=contain&w=767&h=384&dpr=1.5");   
+  }
+
+  50% {
+      background-image: url("https://www.popsci.com/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg");   
+  }
+
+  75% {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-W9TbFJWoSwCzy2GhRzyK4BTtWQ9C0y6iw&usqp=CAU");   
+  }
+
+  100% {
+      background-image: url("https://images3.alphacoders.com/853/thumb-1920-85305.jpg");   
+  }
+} */
+
+
+
+.icon {
+  
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(243, 138, 0);
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  font-size: 30px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: rgb(165, 165, 165);
+  border-width: 2px;
+  width: 80%;
+  margin: 50px auto 80px auto;
+}
+
+.project {
+  padding-top: 50px;
+  background-color: white;
+}
+
+.prj {
+  padding-bottom: 50px;
+}
+
+.proj {
+  padding-left: 60px;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+
+
+.vdo-section {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 50px;
+}
+
+.vdo-title {
+  padding-bottom: 100px;
+}
+
+.team-pic{
+  width: 50%;
+}
+
+.team-info {
+  margin-left: 300px;
+}
+
+.team {
+  text-align: center;
+  background-color: white;
+}
+
+.team-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 50px;
+}
+
+
+.team-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 60%;
+  margin-top: 30px;
+}
+
+
+
+#life_in_zippy{
+  background-color: rgb(211, 211, 211);
+  padding-bottom: 2%;
+}
+
+.life_heading{
+  padding-top:4%;
+}
+
+#featured{
+    max-width:100%;
+    max-height: 600px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.thumbnail{
+    object-fit: cover;
+    max-width: 130px;
+    max-height: 700px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin: 5px;
+
+
+}
+
+.thumbnail:hover{
+    opacity:1;
+  transform: scale(2);
+}
+
+
+
+#slide-wrapper{
+    max-width: 900px;
+  width: 650px;
+  margin: 0 auto;
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+}
+
+#slider{
+    width: 900rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+}
+
+#slider::-webkit-scrollbar {
+        display: none;
+}
+
+.arrow{
+    width: 30px;
+    height: 87px;
+    cursor: pointer;
+    transition: .3s;
+  background-color: #000000;
+}
+.arrow:hover{
+    background-color: #1ebba3;
+}
+
+
+
+.btn:hover {
+  background-color:rgb(32, 104, 94);
+  color: white;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.life{
+  background-color:gray;
+}
+
+.blog {
+  padding-bottom: 100px;
+  background-color:rgb(121, 165, 95);
+}
+
+.blog-section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.blog-pic {
+  padding-left: 150px;
+}
+
+.contact {
+  background-color: rgba(42, 64, 88, 0.925);
+  padding-bottom: 40px;
+  
+}
+
+.contact-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  
+}
+
+.contact-form {
+  width: 200%;
+  height: 50vh;
+  background-size: cover;
+}
+
+.name {
+  padding-right: 320px;
+}
+
+.mail {
+  padding-right: 230px;
+}
+
+.subject {
+  padding-right: 290px;
+}
+
+.message {
+  padding-right: 300px;
+}
+
+.maps {
+  padding-top: 50px;
+}
+
+.btn-primary {
+  width: 400px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  font-size: 20px;
+} 
+
+.last-section {
+  background-color: cornsilk;
+  padding: 40px 40px 20px 40px;
+  color: black;
+}
+
+.office {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+
+#pricing{
+  background-color: white;
+  padding-top: 80px;
+}
+.grid{
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+.grid h3{
+  padding-top: 1rem;
+}
+.grid .text p{
+  color: grey;
+  font-weight: 600;
+}
+.grid > article{
+  background:burlywood;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  text-align: center;
+  width: 350px;
+  transition: transform .3s;
+}
+.grid > article:hover{
+  transform: translateY(5px);
+  box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
+}
+.container .text{
+  padding: 0 20px 20px;
+}
+.text button{
+  background:rgb(243, 138, 0);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.text button:hover{
+  background: yellowgreen;
+}
+
+
+.caroussel-container {
+  overflow: hidden;
+  height: 650px;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+}
+.caroussel {
+  width: 100%;
+  position: relative;
+  left: 0;
+  display: flex;
+}
+.card-img-top1 {
+  width: 100%;
+}
